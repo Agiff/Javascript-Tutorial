@@ -1,6 +1,7 @@
 // Boolean in JavaScript is only true and false
 let isSunny = true;
 let isRaining = false;
+const age = 10;
 
 // Comparison operators
 console.log(5 > 3); // Output: true
