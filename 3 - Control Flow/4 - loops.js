@@ -24,10 +24,10 @@ for (const fruit of fruits) {
 
 // Use Case 4: Do-While loop to execute code at least once
 // Rarerly being used
-let userInput;
+let number = 1;
 
 do {
-  userInput = prompt("Enter a valid input: ");
-} while (!userInput);
+  number *= 2
+} while (number < 20); // 1 * 2 = 2, 2 * 2 = 4, 4 * 2 = 8, 8 * 2 = 16, 16 * 2 = 32
 
-console.log(`User entered: ${userInput}`);
+console.log(`Number: ${number}`); // Output: 32
