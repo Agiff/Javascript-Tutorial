@@ -1,8 +1,3 @@
-// 3-Control-Flow/1-if-else.js
-
-// Welcome to the Control Flow module!
-// In this lesson, we'll explore the basic concepts of conditional statements using if-else.
-
 // Example 1: Simple if-else statement
 const isRaining = true;
 
@@ -74,4 +69,37 @@ if (typeof variable === 'string') {
   console.log('The variable is of an unknown type.');
 }
 
-// Feel free to experiment with these examples and try creating your own!
+/*
+########################################################
+###################### !! QUIZ !! ######################
+########################################################
+##### Do this after you finish logicalOperators.js #####
+########################################################
+
+1. Make a simple if-else statement to check if a given number is even or odd. 
+   Create a variable 'numberToCheck' with any numeric value and write an if-else statement 
+   to log whether the number is even or odd.
+   Note: You need to use '%' (modulus) to find the leftover number
+   Example:
+    - 4 % 2 = 0 // Explanation: 2 * 2 = 4, (no leftover so the answer is 0)
+    - 10 % 3 = 1 // Explanation: 3 * 3 = 9, 10 - 9 = 1 (the leftover is 1)
+    - 9 % 5 = 4 // Explanation: 5 * 1 = 5, 9 - 5 = 4 (the leftover is 4)
+    - 10 % 5 = 0 // Explanation: 5 * 2 = 10 (no leftover so the answer is 0)
+
+2. Create a comparison and logical operators scenario. 
+   Define two variables 'firstNumber' and 'secondNumber' with numeric values. 
+   Write an if-else statement to check and log whether 'firstNumber' is greater than, 
+   less than, or equal to 'secondNumber'.
+
+3. Implement a nested if-else statement to simulate a grading system. 
+   Create a variable 'studentScore' with a numeric value. 
+   Write nested if-else statements to determine and log the corresponding grade 
+   based on the following conditions:
+   - A: 90-100
+   - B: 80-89
+   - C: 70-79
+   - D: 60-69
+   - F: 0-59
+*/
+
+

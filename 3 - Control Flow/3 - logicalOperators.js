@@ -1,18 +1,24 @@
 // Use Case 1: Logical AND (&&) operator
+// if both value is "true" then the result is "true"
+// if one value is "true" and the other one is "false" then the result is "false"
+// if both value are "false" then the result is "false"
 let highIncome = true;
 let goodCreditScore = true;
 
-if (highIncome && goodCreditScore) {
+if (highIncome && goodCreditScore) { // Output: Eligible for loan.
   console.log('Eligible for loan.');
 } else {
   console.log('Not eligible for loan.');
 }
 
 // Use Case 2: Logical OR (||) operator
+// if both value is "true" then the result is "true"
+// if one value is "true" and the other one is "false" then the result is "true"
+// if both value are "false" then the result is "false"
 let student = true;
 let workingProfessional = false;
 
-if (student || workingProfessional) {
+if (student || workingProfessional) { // Output: User is valid.
   console.log('User is valid.');
 } else {
   console.log('Invalid user.');
@@ -21,10 +27,17 @@ if (student || workingProfessional) {
 // Use Case 3: Logical NOT (!) operator
 let loggedIn = false;
 
-if (!loggedIn) {
+if (!loggedIn) { // Output: Please log in.
   console.log('Please log in.');
 } else {
   console.log('Welcome!');
+}
+
+// same as this
+if (loggedIn) { // Output: Please log in.
+  console.log('Welcome!');
+} else {
+  console.log('Please log in.');
 }
 
 /*

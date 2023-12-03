@@ -1,5 +1,5 @@
 // Use Case 1: Switch statement for multiple conditions
-let dayOfWeek = 'Monday';
+let dayOfWeek = 'Monday'; // try to change this
 
 switch (dayOfWeek) {
   case 'Monday':
@@ -17,7 +17,7 @@ switch (dayOfWeek) {
 }
 
 // Use Case 2: Switch statement with fall-through
-let grade = 'B';
+let grade = 'B'; // try to change this
 
 switch (grade) {
   case 'A':

@@ -26,6 +26,7 @@ const divide = (a, b) => {
 let divideResult = divide(100, 10);
 console.log(`Divide Result: ${divideResult}`); // Output: Divide Result 10
 
+// Use case: Damage Calculator
 const damageCalculator = (hp, dmg, def) => {
   console.log(hp); // Output: 100
   console.log(dmg); // Output: 60

@@ -4,7 +4,7 @@ function exampleScope() {
   console.log(localVar);
 }
 
-exampleScope();
+exampleScope(); // Output: I am a local variable
 
 // Use case: Preventing variable conflicts
 let globalVar = "I am a global variable";
@@ -13,14 +13,12 @@ function logGlobalVar() {
   console.log(globalVar);
 }
 
-logGlobalVar();
+logGlobalVar(); // Output: I am a global variable
 
-// Block scope (let and const)
+// Block scope
 if (true) {
   let blockVar = "I am a block-scoped variable";
-  const constantVar = "I cannot be reassigned";
   console.log(blockVar);
 }
 
 // console.log(blockVar); // Error: blockVar is not defined outside the block
-// constantVar = "I am reassigned"; // Error: Assignment to constant variable
