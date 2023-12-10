@@ -7,11 +7,11 @@
   e. Determine and print the day with the highest temperature.
 
   Expected output:
-  Highest temperature: 30
-  Lowest temperature: 22
-  Average temperature: 26.428571428571427
-  Temperatures above 25 degrees: [28, 26, 30, 29]
-  Day with the highest temperature: Day 6
+    Highest temperature: 30
+    Lowest temperature: 22
+    Average temperature: 26.428571428571427
+    Temperatures above 25 degrees: [28, 26, 30, 29]
+    Day with the highest temperature: Day 6
 */
 
 //code here
@@ -27,11 +27,13 @@ let dailyTemperatures = [22, 25, 28, 24, 26, 30, 29];
 2. Consider a 2D array representing a seating arrangement in a theater. Each seat is represented by a number, and rows and columns are numbered starting from 1.
 
   a. Print Seat Numbers
-      Write a program to print the seat numbers in the following format:
-      Row 1: 1 2 3 4
-      Row 2: 5 6 7 8
-      Row 3: 9 10 11 12
-      Row 4: 13 14 15 16
+      Write a program to print the seat numbers.
+
+      Expected Output:
+        Row 1: 1 2 3 4
+        Row 2: 5 6 7 8
+        Row 3: 9 10 11 12
+        Row 4: 13 14 15 16
 
   b. Find Seat
       Create a function called "findSeat(row, col)" that takes row and column numbers as parameters and returns the seat number. Test the function with different row and column values.
@@ -42,14 +44,14 @@ let dailyTemperatures = [22, 25, 28, 24, 26, 30, 29];
       Create a function called "reserveSeat(row, col)" that marks a seat as reserved by replacing the seat number with "X". Print the updated seating arrangement after reserving a seat.
       
       Function Called:
-      reserveSeat(3, 1);
-      reserveSeat(1, 4);
+        reserveSeat(3, 1);
+        reserveSeat(1, 4);
 
       Expected Output:
-      Row 1: 1 2 3 X
-      Row 2: 5 6 7 8
-      Row 3: X 10 11 12
-      Row 4: 13 14 15 16
+        Row 1: 1 2 3 X
+        Row 2: 5 6 7 8
+        Row 3: X 10 11 12
+        Row 4: 13 14 15 16
 
   d. Check Seat Availability
       Create a function called "isSeatAvailable(row, col)" that returns a boolean indicating whether a seat is available.
